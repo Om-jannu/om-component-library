@@ -52,7 +52,7 @@ list-style: none;
     font-weight: bold;
     font-size: x-large;
 }
-.link-active{
+.navig .link-active{
     font-size: larger;
     font-weight: bold;
 }
@@ -61,4 +61,51 @@ list-style: none;
 }
 .navig .link{
     color: var(--white);
+}
+.webpic{
+padding: 1rem;
+}
+.pic-img{
+   max-width: 80%;
+   max-height: 400px;
+   display: block;
+   margin: auto;
+}
+.webpic-heading{
+    text-align: center;
+    font-weight:900;
+    font-size: xx-large;
+}
+.subwebpic-heading{
+    border: solid 2px var(--white);
+    background-color: var(--pri-color);
+    border-radius: 1rem;
+    padding: 0.5rem 0.5rem;
+    font-weight: 600 ;
+    color: var(--white);
+}
+.section h1{
+   text-align: center;
+}
+.section p{
+    text-align: justify;
+}
+.owsection{
+    background-color:beige;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.social{
+    color: var(--white);
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+.footer .link{
+    text-align: center;
+   
+}
+.footer .social-link{
+  
+    border: solid;
 }
