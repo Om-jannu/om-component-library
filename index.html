@@ -22,43 +22,44 @@
 <hr>
 <h1>@container</h1>
 <h3>fluid container</h3>
-<div>this is a fluid container which will go till the end of the page if there is enough space available</div>
+<div class="container">this is a fluid container which will go till the end of the page if there is enough space available</div>
 <h3>centered fluid container</h3>
-<div>this is a centered fluid container which will go till the end of the page if there is enough space available</div>
+<div class="container container-center">this is a centered fluid container which will go till the end of the page if there is enough space available</div>
 <hr>
 <h2>@links</h2>
-<div>
-    <a href="#">primary link</a>
-    <a href="#">secondary link</a>
+<div class="link-box">
+    <a class="link prilink" href="">primary link</a>
+    <a class="link seclink" href="">secondary link</a>
 </div>
+<hr>
 <h2>@list</h2>
     <h3>This is an ordered list</h3>
-    <ol>
+    <ol class="non-bullet">
         <li>Item 1</li>
         <li>Item 2</li>
         <li>Item 3</li>
     </ol>
     <h3>This is an unordered list</h3>
-    <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>        
+    <ul class="non-bullet ">
+        <li class="inline">Item 1</li>
+        <li class="inline">Item 2</li>
+        <li class="inline">Item 3</li>        
     </ul>
     <h3>This is an reversed unordered list</h3>
-    <ul>
+    <ol reversed>
         <li>Item 1</li>
         <li>Item 2</li>
         <li>Item 3</li>        
-    </ul>
+    </ol>
     <hr>
 
     <h2>@nav</h2>
-    <nav>
-        <div>Software Community</div>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Project</a></li>
-            <li><a href="#">Blogs</a></li>
+    <nav class="navig">
+        <div class="nav-brand">Software Community</div>
+        <ul class="nav-pill">
+            <li class="inline"><a class="link link-active" href="#">Home</a></li>
+            <li class="inline"><a class="link" href="#">Project</a></li>
+            <li class="inline"><a class="link" href="#">Blogs</a></li>
         </ul>
     </nav>
     <hr>

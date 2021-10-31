@@ -1,7 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;500;900&display=swap');
+:root{
+    --pri-color : #1AF0EE;
+    --white : #ffffff;
+}
 body{
 font-family:'Zen Kaku Gothic New', sans-serif;
 }
 .ofwpara{
     background-color: rgb(231, 226, 226);
+}
+.container{
+    padding: 0rem 1rem;
+}
+.container-center{
+    max-width: 700px;
+    margin: auto;
+}
+.link{
+    padding: 0.5rem 1rem;
+      text-decoration: none;
+}
+.link-box{
+    margin-bottom: 2rem;
+}
+.prilink{
+    border: 1px solid ;
+    background-color: var(--pri-color);
+    border-radius: 0.5rem;
+    border-color: var(--black);
+    color: var(--white);
+}
+.seclink{
+    border: solid 1px var(--pri-color);
+    border-radius: 0.5rem;
+    color: var(--pri-color);
+}
+.non-bullet{
+list-style: none;
+}
+.inline{
+    padding: 0.5rem 1rem;
+    display: inline;
+}
+.navig{
+    padding: 1rem 2rem;
+    background-color: var(--pri-color);
+    border-radius: 1rem;
+}
+.nav-brand{
+    color: var(--white);
+    font-weight: bold;
+    font-size: x-large;
+}
+.link-active{
+    font-size: larger;
+    font-weight: bold;
+}
+.navig .nav-pill{
+    text-align: right;
+}
+.navig .link{
+    color: var(--white);
 }
